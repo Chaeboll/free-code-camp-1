@@ -1,0 +1,55 @@
+:root{
+    --kal1: #0a0a23;
+    --kal2: #ffffff;
+    --kal3: #c70d0d;
+    --kal4: #feac32;
+    --kal5: #fecc4c;
+    --kal6: #ffac33;
+}
+body{
+    background-color: var(--kal1);
+}
+
+#text{
+    background-color: var(--kal1);
+    color: #ffffff;
+    padding: 10px;
+}
+
+#controls, #stats{
+    border: 1px solid var(--kal1);
+    color: var(--kal1);
+    padding: 5px;
+}
+
+/* ini dye tak suruh pun.... */
+
+#game{
+    max-width: 500px;
+    max-height: 400px;
+    background-color: var(--kal2);
+    margin: 30px auto 0px;
+    padding: 10px;
+}
+
+/* huiyoo display none */
+#monsterStats{
+    padding: 5px;
+    border: 1px solid var(--kal1);
+    color: var(--kal2);
+    background-color: var(--kal3);
+    display: none;
+}
+
+.stat{
+    padding-right: 10px;
+}
+
+button{
+    cursor: pointer;
+    color: var(--kal1);
+    background-color: var(--kal4);
+    /* i dk why they use background image here */
+    background-image: linear-gradient( var(--kal5), var(--kal6) );
+    border: 3px solid var(--kal4);
+}
